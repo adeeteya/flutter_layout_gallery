@@ -1,0 +1,31 @@
+name: flutter_layout_gallery
+description: Showcases the different flutter layout widgets
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#FEFBFF"
+  color_dark: "#1B1B1F"
+  image: assets/icon.png
+  android_12:
+    image: assets/icon.png
+    color: "#FEFBFF"
+    image_dark: assets/icon.png
+    color_dark: "#1B1B1F"
